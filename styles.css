@@ -122,8 +122,33 @@ html {
   border-top-left-radius: 80px;
   border-top-right-radius: 40px;
   border-bottom-right-radius: 20px;
+  border-right: 3px solid #264653;
   height: 80px;
+  position: relative;
   width: 120px;
+  z-index: 1;
+}
+
+.bear__leg {
+  background-color: #778da9;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-right: 3px solid #264653;
+  border-top: 3px solid #264653;
+  bottom: 3px;
+  height: 25px;
+  position: absolute;
+  right: -20px;
+  transform: rotate(10deg);
+  width: 30px;
+}
+
+.bear__leg--left {
+  bottom: 15px;
+}
+
+.bear__leg--right {
+  z-index: 2;
 }
 
 @keyframes move-body {
