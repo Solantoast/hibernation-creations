@@ -32,6 +32,7 @@ html {
   font-size: 3rem;
   font-style: normal;
   font-weight: 400;
+  text-shadow: 3px 3px 0 #1b263b;
 }
 
 .bear__head {
