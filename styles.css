@@ -60,6 +60,7 @@ html {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 10px;
   height: 15px;
+  margin-right: -2px;
   width: 15px;
 }
 
