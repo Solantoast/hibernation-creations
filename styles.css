@@ -61,8 +61,23 @@ html {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 10px;
   height: 15px;
+  position: relative;
   margin-right: -2px;
   width: 18px;
+}
+
+.bear__ear-tuft {
+  background-color: #415a77;
+  bottom: 6px;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  width: 5px;
+}
+
+.bear__ear-tuft:nth-child(2) {
+  bottom: 9px;
+  transform: rotate(10deg);
 }
 
 .bear__snoot {
