@@ -83,6 +83,46 @@ html {
   width: 70px;
 }
 
+.bear__eye {
+  background-color: #3d5167;
+  height: 5px;
+  position: absolute;
+  width: 2px;
+}
+
+.bear__eye--left {
+  left: 40px;
+  bottom: 23px;
+  transform: rotate(20deg);
+}
+
+.bear__eye--right {
+  left: 40px;
+  bottom: 3px;
+  transform: rotate(-20deg);
+}
+
+.bear__snoot {
+  background-color: #b1afad;
+  bottom: 7px;
+  border-radius: 10px 10px 10px 6px;
+  height: 20px;
+  margin-left: -4px;
+  position: absolute;
+  width: 30px;
+  z-index: 1;
+}
+
+.bear__nosey {
+  background-color: #3d5167;
+  border-radius: 10px 20px 20px 10px;
+  bottom: 10px;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  z-index: 2;
+}
+
 .bear__body {
   animation: 9s ease-in infinite move-body;
   border-top-left-radius: 80px;
