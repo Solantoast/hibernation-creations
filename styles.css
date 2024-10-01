@@ -46,6 +46,7 @@ html {
 
 .bear {
   font-size: 0;
+  margin: 10% auto 0 auto;
   position: relative;
   width: fit-content;
 }
