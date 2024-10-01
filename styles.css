@@ -66,14 +66,24 @@ html {
   font-weight: 400;
   font-style: normal;
   font-size: 2rem;
-  display: flex;
   position: absolute;
-  left: -30px;
+  left: 30px;
 }
 
 .z {
-  display: inline;
-  margin: 0.25rem;
+  animation: 4s ease-out infinite dream;
+  position: absolute;
+  top: -50px;
+}
+
+.z:first-child {
+  animation: 4s ease-out infinite dream-2;
+  left: -20px;
+}
+
+.z:last-child {
+  animation: 4s ease-out infinite dream-3;
+  left: 20px;
 }
 
 .bear__ear {
@@ -198,5 +208,64 @@ html {
   }
   to {
     transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes dream {
+  from {
+    top: -50px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+  }
+  to {
+    top: -110px;
+    opacity: 0;
+  }
+}
+
+@keyframes dream-2 {
+  from {
+    top: -50px;
+    opacity: 0;
+  }
+  20% {
+    top: -50px;
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+  }
+  to {
+    top: -90px;
+    opacity: 0;
+  }
+}
+
+@keyframes dream-3 {
+  from {
+    top: -50px;
+    opacity: 0;
+  }
+  35% {
+    top: -50px;
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+  }
+  to {
+    top: -80px;
+    opacity: 0;
   }
 }
