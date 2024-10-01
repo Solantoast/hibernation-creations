@@ -66,7 +66,6 @@ html {
 }
 
 .bear__right-ear {
-  animation: 12s ease-in infinite move-right-ear;
   border-top-left-radius: 10px;
   border-top-right-radius: 15px;
   height: 25px;
