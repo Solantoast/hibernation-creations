@@ -94,21 +94,12 @@ html {
 
 .bear__eye {
   background-color: #3d5167;
-  height: 5px;
+  border-radius: 2px 5px;
+  bottom: 25px;
+  height: 8px;
+  left: 40px;
   position: absolute;
-  width: 2px;
-}
-
-.bear__eye--left {
-  left: 40px;
-  bottom: 23px;
-  transform: rotate(20deg);
-}
-
-.bear__eye--right {
-  left: 40px;
-  bottom: 3px;
-  transform: rotate(-20deg);
+  width: 3px;
 }
 
 .bear__body {
