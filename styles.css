@@ -46,7 +46,7 @@ html {
 
 .bear {
   font-size: 0;
-  margin: 10% auto 0 auto;
+  margin: 20% auto 0 auto;
   position: relative;
   width: fit-content;
 }
@@ -55,6 +55,25 @@ html {
   background-color: #778da9;
   display: inline-block;
   white-space: nowrap;
+}
+
+.bear__dreams {
+  background-color: transparent;
+  bottom: 70px;
+  color: #e0e1dd;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  display: flex;
+  position: absolute;
+  left: -30px;
+}
+
+.z {
+  display: inline;
+  margin: 0.25rem;
 }
 
 .bear__ear {
