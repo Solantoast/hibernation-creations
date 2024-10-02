@@ -151,7 +151,7 @@ html {
 }
 
 .bear__body {
-  animation: 9s ease-in infinite move-body;
+  animation: 8s ease-in infinite move-body;
   border-top-left-radius: 80px;
   border-top-right-radius: 40px;
   border-bottom-right-radius: 20px;
